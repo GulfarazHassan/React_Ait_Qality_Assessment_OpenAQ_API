@@ -1,0 +1,6 @@
+export { default as Navbar } from './Navbar'
+export { default as Footer } from './Footer'
+export { default as InputForm } from './InputForm'
+export { default as Error } from './Error'
+export { default as ResultData } from './ResultData'
+export { default as DataTable } from './DataTable'
