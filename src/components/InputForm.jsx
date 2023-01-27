@@ -19,7 +19,6 @@ const InputForm = ({setData}) => {
 
   const onLoadingChange = (value = false) => {
     setLoading(value);
-    setErrorMessage('');
   };
 
   const onChangeText = (text, setText) => {

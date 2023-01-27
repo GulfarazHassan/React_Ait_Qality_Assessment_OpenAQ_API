@@ -20,6 +20,7 @@ export const getAirQualityData = async (
             const cityOneData = cityOneResponse?.data?.results || [];
             const cityTwoeData = cityTwoResponse?.data?.results || [];
             onSuccess(cityOneData, cityTwoeData);
+            onError('')
         })
         .catch((e) => onError(e.message))
         .finally(() => onLoadingChange(false));
